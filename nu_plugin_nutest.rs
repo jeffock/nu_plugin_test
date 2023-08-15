@@ -1,7 +1,7 @@
 use std::process::Command;
 
 fn main() {
-    let nushell_command = r#"echo 'Hello from NuShell!'"#;
+    let nushell_command = r#"clear"#;
 
     let output = Command::new("nu")
         .arg("-c")
